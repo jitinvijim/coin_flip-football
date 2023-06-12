@@ -1,16 +1,3 @@
-/*
-last_action = pass/shoot (1/2)
-consec_passes = number of consecutive passes 
-base_succ_rate = 0.25 (25%)
-with consec_passes++, base_rate+=0.25 until 1 (weighted random)
-max(consec_pass) = 4, g.t will result in loss of ball
-
-
-to edit to make bool and not int
-*/
-
-
-
 #include <iostream>
 #include <cctype>
 #include <chrono>
