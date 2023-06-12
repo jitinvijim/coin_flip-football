@@ -25,12 +25,18 @@ void penalties(int maxPens){
                  << "Enter the index of the choice you would like to make: ";
     
             cin >> action_choice;
-
-            if (action_choice == 1 || action_choice == 2 || action_choice == 3) {
+            if (cin.fail()) {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout <<endl<<"Invalid choice. Please enter a valid choice." << endl<<endl;
+            }
+            else if (action_choice == 1 || action_choice == 2 || action_choice == 3) {
                 break;
             }
-
-            cout << "Invalid choice, choose again" <<endl;
+            else
+            {
+               cout << "Invalid choice. Please enter a valid choice." <<endl<<endl; 
+            }
         }
         
         bool opp_shot_jump = penRandom();
@@ -60,12 +66,18 @@ void penalties(int maxPens){
                  << "Enter the index of the choice you would like to make: ";
     
             cin >> action_choice;
-
-            if (action_choice == 1 || action_choice == 2 || action_choice == 3) {
+            if (cin.fail()) {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout <<endl<<"Invalid choice. Please enter a valid choice." << endl<<endl;
+            }
+            else if (action_choice == 1 || action_choice == 2 || action_choice == 3) {
                 break;
             }
-
-            cout << "Invalid choice, choose again" <<endl;
+            else
+            {
+               cout << "Invalid choice. Please enter a valid choice." <<endl<<endl; 
+            }
         }
         
         opp_shot_jump = penRandom();
