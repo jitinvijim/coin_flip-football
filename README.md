@@ -6,3 +6,5 @@ Although at first glance it should work on a 50-50 chance, the game includes a w
 If the game isn't decided in normal time (15 turns), the player can go for extra-time (7 turns) and then penalties. 
 
 Penalties work by the player can choosing which direction (out of 3) they'd like to shoot and also jump. There is a 66% chance they'll score, but only a 33% chance theyll save the opposition's penalty. Each team has 5 penalties respectively. If the game still isn't decided by then, the player can choose to go for best-of-one penalty, where each team only has a single penalty.
+
+To run this game, download the code and execute.
